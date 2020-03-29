@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+     
+    <title>Inscription ·</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style/styleInscription.css">
+</head>
+<header>
+    <div id="header">
+        <h1>Inscription</h1>
+    </div>
+</header>
+<body>
+    <div class="btn-navigation">
+        <div class="barre"></div>
+        <div class="barre"></div>
+        <div class="barre"></div>
+    </div> 
+    <div class="navigation">
+    <ul> 
+            <li>
+                <a href="index.php">Accueil</a>
+            </li>
+            <li>
+                <a href="connexion.php">Connexion</a>
+            </li>
+            <li>
+                <a href="inscription.php">Inscription</a>
+            </li>
+            <li>
+                <a href="cours.php">Cours</a>
+            </li>
+        </ul>
+    </div>
+    <form method="POST" action="">
+        <table>
+           <tr>
+              <td>
+                 <label for="pseudo">Pseudo :</label>
+              </td>
+              <td>
+                 <input type="text" placeholder="Votre pseudo" id="pseudo" name="pseudo" value="" />
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <label for="mail">Mail :</label>
+              </td>
+              <td>
+                 <input type="email" placeholder="Votre mail" id="mail" name="mail" value="" />
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <label for="mail2">Confirmation du mail :</label>
+              </td>
+              <td>
+                 <input type="email" placeholder="Confirmez votre mail" id="mail2" name="mail2" value="" />
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <label for="mdp">Mot de passe :</label>
+              </td>
+              <td>
+                 <input type="password" placeholder="Votre mot de passe" id="mdp" name="mdp" />
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <label for="mdp2">Confirmation du mot de passe :</label>
+              </td>
+              <td>
+                 <input type="password" placeholder="Confirmez votre mdp" id="mdp2" name="mdp2" />
+              </td>
+           </tr>
+           <tr>
+              <td></td>
+              <td>
+                 <br/>
+                 <input type="submit" name="forminscription" value="Je m'inscris" />
+              </td>
+           </tr>
+        </table>
+     </form>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script> 
+<script src="src/app.js"></script>

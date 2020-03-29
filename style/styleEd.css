@@ -1,0 +1,12 @@
+.FormulaireEdition{
+    text-align: center;
+    padding: 80px;
+}
+h1{
+    margin-left: 42%;
+}
+.MAJ{
+    border-radius: 10px;
+    background-color: black;
+    color: #FFFFFF;
+}

@@ -1,0 +1,33 @@
+.firstBlockCours h2{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.block1cours{
+    width: 90%;
+    height: 600px;
+    background-color: #E4E4E4;
+    margin-top: 12%;
+    margin-left: 5%;
+    position: absolute;
+    border-radius: 30px;
+    text-align: right;
+    z-index: -6;
+}
+h2{
+    z-index: -6;
+}
+.DownPDF{
+    text-align: center;
+    font-size: 18px;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+.DownPDF img{
+    width: 40px;
+    position: absolute;
+    z-index: 999;
+    top:-30px;
+    right: 25px;
+}
